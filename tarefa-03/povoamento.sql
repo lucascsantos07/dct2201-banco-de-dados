@@ -27,42 +27,42 @@ INSERT INTO livros (titulo, ano_publicacao, preco, autor_id) VALUES
 ('Razão e Sensibilidade', 1811, 39.90, 4),
 ('Emma', 1815, 45.90, 4),
 
--- Franz Kafka (ID 15)
-('A Metamorfose', 1915, 34.90, 15),
-('O Processo', 1925, 49.90, 15),
+-- Franz Kafka (ID 5)
+('A Metamorfose', 1915, 34.90, 5),
+('O Processo', 1925, 49.90, 5),
 
--- George Orwell (ID 16)
-('A Revolução dos Bichos', 1945, 39.90, 16),
-('1984', 1949, 49.90, 16),
+-- George Orwell (ID 6)
+('A Revolução dos Bichos', 1945, 39.90, 6),
+('1984', 1949, 49.90, 6),
 
--- Jorge Luis Borges (ID 17)
-('Ficções', 1944, 44.90, 17),
-('O Aleph', 1949, 39.90, 17),
+-- Jorge Luis Borges (ID 7)
+('Ficções', 1944, 44.90, 7),
+('O Aleph', 1949, 39.90, 7),
 
--- Victor Hugo (ID 18)
-('Os Miseráveis', 1862, 69.90, 18),
-('O Corcunda de Notre-Dame', 1831, 59.90, 18),
+-- Victor Hugo (ID 8)
+('Os Miseráveis', 1862, 69.90, 8),
+('O Corcunda de Notre-Dame', 1831, 59.90, 8),
 
--- Haruki Murakami (ID 19)
-('Norwegian Wood', 1987, 54.90, 19),
-('Kafka à Beira-Mar', 2002, 64.90, 19),
+-- Haruki Murakami (ID 9)
+('Norwegian Wood', 1987, 54.90, 9),
+('Kafka à Beira-Mar', 2002, 64.90, 9),
 
--- Chimamanda Ngozi Adichie (ID 20)
-('Americanah', 2013, 59.90, 20),
-('Meio Sol Amarelo', 2006, 54.90, 20),
+-- Chimamanda Ngozi Adichie (ID 10)
+('Americanah', 2013, 59.90, 10),
+('Meio Sol Amarelo', 2006, 54.90, 10),
 
--- William Shakespeare (ID 21)
-('Hamlet', 1603, 39.90, 21),
-('Romeu e Julieta', 1597, 35.90, 21),
+-- William Shakespeare (ID 11)
+('Hamlet', 1603, 39.90, 11),
+('Romeu e Julieta', 1597, 35.90, 11),
 
--- Miguel de Cervantes (ID 22)
-('Dom Quixote - Parte I', 1605, 59.90, 22),
-('Dom Quixote - Parte II', 1615, 54.90, 22),
+-- Miguel de Cervantes (ID 12)
+('Dom Quixote - Parte I', 1605, 59.90, 12),
+('Dom Quixote - Parte II', 1615, 54.90, 12),
 
--- Fiódor Dostoiévski (ID 23)
-('Crime e Castigo', 1866, 49.90, 23),
-('Os Irmãos Karamázov', 1880, 64.90, 23),
+-- Fiódor Dostoiévski (ID 13)
+('Crime e Castigo', 1866, 49.90, 13),
+('Os Irmãos Karamázov', 1880, 64.90, 13),
 
--- José Saramago (ID 24)
-('Ensaio sobre a Cegueira', 1995, 54.90, 24),
-('Memorial do Convento', 1982, 49.90, 24);
+-- José Saramago (ID 14)
+('Ensaio sobre a Cegueira', 1995, 54.90, 14),
+('Memorial do Convento', 1982, 49.90, 14);

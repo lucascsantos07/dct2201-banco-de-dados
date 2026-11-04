@@ -1,0 +1,22 @@
+services:
+  mariadb:
+    image: mariadb:11
+    container_name: lab2-mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: senha456
+      MARIADB_DATABASE: labdb
+    ports:
+      - "${MARIADB_PORT:-3306}:3306"
+    volumes:
+      - mariadb_data_2:/var/lib/mysql
+
+  cloudbeaver:
+    image: dbeaver/cloudbeaver:latest
+    container_name: lab2-cloudbeaver
+    ports:
+      - "${CLOUDBEAVER_PORT:-8978}:8978"
+    depends_on:
+      - mariadb
+
+volumes:
+  mariadb_data_2:
